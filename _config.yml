@@ -23,7 +23,8 @@ url: "https://clark-ai.com"
 baseurl: ""
 
 # Build settings
-theme: minima
+# theme: minima
+theme: millennial
 
 plugins:
   - jekyll-feed
