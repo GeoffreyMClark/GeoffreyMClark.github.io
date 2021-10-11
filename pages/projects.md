@@ -1,6 +1,13 @@
 ---
-layout: category
+layout: page
 title: Projects
-category: projects
 permalink: /projects
 ---
+
+<!-- movie robot -->
+<!-- desert wave -->
+<!-- motorcycle -->
+
+
+
+
