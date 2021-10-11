@@ -7,26 +7,24 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Interesting Facts',  url: 'facts'}
+- {name: 'Research',           url: 'research'}
+- {name: 'Projects',           url: 'projects'}
 - {name: 'Learning Resources', url: 'resources'}
-- {name: 'Sample Posts',       url: 'sample-posts'}
-- {name: 'Documentation',      url: 'documentation'}
-- {name: 'About',              url: 'about'}
-- {name: 'Contact',            url: 'contact'}
+- {name: 'Blog',               url: 'sample-posts'}
+- {name: 'Bio',                url: 'bio'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-# - {icon: 'twitter', link:    ''}
-# - {icon: 'facebook', link:   ''}
-# - {icon: 'instagram', link:  ''}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/geoffrey-m-clark/'}
+- {icon: 'github', link: 'https://github.com/GeoffreyMClark'}
 - {icon: 'envelope', link:   'clark.m.geoffrey@gmail.com'}
-- {icon: 'rss-square', link: 'feed.xml'}
+# - {icon: 'rss-square', link: 'feed.xml'}
 # - {icon: 'rss-square', link: 'rss-feed.xml'}
 
 # Customize site text
-pagination:
-  next_page: 'Newer'
-  previous_page: 'Older'
+# pagination:
+#   next_page: 'Newer'
+#   previous_page: 'Older'
 
 sharing_button_prompt: 'Feel free to share!'
 

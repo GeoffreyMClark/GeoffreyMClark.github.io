@@ -1,12 +1,10 @@
 ---
 layout: page
-title: About
-permalink: /about
+title: Bio
+permalink: /bio
 ---
 
-I am a PhD student at Arizona State University and part of the Interactive Robotics Lab run by Dr. Heni Ben Amor. After majoring in engineering with a strong focus on robotics, I proceeded to work as a mechatronics engineer at a small startup (SpringActive) where I had the chance to R&D both software and hardware for state of the art lower limb prosthetic devices. There I learned to work in multidisciplinary a team and to be ambitious in how I approach problems while developing intelligent control systems which enable amputees to walk, run, and jump, seamlessly. My work allowed me to see first hand that classical control formulations are simply not powerful enough to drive the next generation of intelligent robotics, and gained a strong foundation robtics imparative to the application of machine learning methods on robotic systems.
 
-My research focuses primarily on adding Bayesian filtering and optimal control concepts to probabilistic machine learning paradigms. In short, classical filtering and optimal control methods are typically slow and difficult to tune for systems which are both high-dimensional and nonlinear, while machine learning methods such as deep neural networks do not provide guarantees for robustness and stability in controlled systems. By merging ideas form both I am working to learn intelligent robot control methods which are an order of magnitude faster than conventional optimal controllers. One excellent application of my research is in the control of powered prosthetics. For example I enabled fast and accurate prostheses control by training a model to predict high-fidelity control signals from low-fidelity sensors such as IMUs (ICRA 2020). Going a step further I incorporated model predictive control to ensure stability and robustness while continuously looking ahead to possible future states and modifying the robots interaction to insure the amputee walks in ways which take less energy, increase stability, or limit the risk of osteoarthritis (CoRL2020). I am now working towards a unified motor primitive approach to which tackles both optimal prothetic perception and optimal prothetic action.
 
 
 <!-- Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme, check out [the documentation]({{ site.github.url }}{% post_url 2016-10-10-getting-started %}). -->
