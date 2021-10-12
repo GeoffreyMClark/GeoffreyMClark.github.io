@@ -13,11 +13,11 @@ $phone-width: 480px;
 
 $header-thickness: 56px;
 
-$icon-transition-time: 1.0s;
+$icon-transition-time: 0.25s;
 $envelope-color: #f39c12;
 $twitter-color: #00aced;
 $instagram-color: #375989;
-$github-color: #343434;
+$github-color: #00aced;
 $linkedin-color: #0073a4;
 $facebook-color: #3d5b99;
 $google-color: #e64a41;
@@ -25,5 +25,6 @@ $pinterest-color: #bd081c;
 $medium-color: #00AB6C;
 $codepen-color: black;
 $rss-color: #ff6600;
+$cuddlefish-color: #00aced;
 
 @import "-sections-dir";
