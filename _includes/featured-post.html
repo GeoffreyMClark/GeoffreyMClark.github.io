@@ -1,5 +1,39 @@
 <article>
   <a href="{{ site.github.url }}{{ post.url }}">
+
+    {% if post.gif %}
+      <div class="featured-gif" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.gif }})"{% endif %}>
+    {% endif %}
+    <div class="featured-post" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
+      <h2><span>{{ post.title }}</span></h2>
+
+      
+    </div>
+  </a>
+</article>
+
+
+
+
+
+<!-- <div id="videosList">           
+  <div class="video">
+      <video class="thevideo" loop preload="none">
+        <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
+        <source src="https://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+    Hover mouse over video. Desktop only [ Obviously! ;) ]
+  </div> -->
+
+
+
+
+
+
+<!-- <article>
+  <a href="{{ site.github.url }}{{ post.url }}">
     {% if post.video %}
     <div class="featured-post" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.video }})"{% endif %}>
       <h2><span>{{ post.title }}</span></h2>
@@ -10,8 +44,7 @@
       
     </div>
   </a>
-</article>
-
+</article> -->
 
 
 
@@ -26,13 +59,4 @@
 
 
 
-<!-- <div id="videosList">           
-  <div class="video">
-      <video class="thevideo" loop preload="none">
-        <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
-        <source src="https://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
-      Your browser does not support the video tag.
-      </video>
-    </div>
-    Hover mouse over video. Desktop only [ Obviously! ;) ]
-  </div> -->
+

@@ -27,6 +27,18 @@
 .featured-post h1 {
   margin: 10px;
 }
+.featured-post:hover {
+  opacity:0;
+}
+.featured-gif {
+  height: 400px;
+  margin: 5px 10px 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 
 /*
   Pagination
