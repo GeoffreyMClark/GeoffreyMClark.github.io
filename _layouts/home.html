@@ -1,11 +1,70 @@
 ---
 layout: default
-title: Home
+title: home
 ---
 
-{% for post in paginator.posts %}
+<article>
+  <p><img src="assets/img/headshot_circle.png" alt="" style="float:left; margin-left:7px; margin-top:7px; padding-right:20px; width: 30%;" /> 
+<br />
+I am a PhD student at Arizona State University and part of the Interactive Robotics Labor. 
+After majoring in engineering with a strong focus on robotics, I proceeded to work as a mechatronics engineer 
+at a robotics startup (SpringActive) where I designed both software and hardware for state of the 
+art assistive devices. In my 10 years of engineering experience, I learned to work in multidisciplinary 
+teams and to be ambitious in how I approach problems while developing intelligent control systems which enable 
+amputees to walk, run, and jump, seamlessly. My work allowed me to see first hand that classical control 
+formulations are simply not powerful enough to drive the next generation of intelligent robotics, and drove me 
+to persue a PhD in machine learning.</p>
+
+<p>My research focusses on agile locomotion for legged robotics. Both assistive devices and legged robots share 
+  many of the same challenges, including how to best percieve the world, and how to control based on the perceptions.
+  My research focuses primarily on adding **Bayesian filtering** and **optimal control** concepts to 
+  **probabilistic machine learning** paradigms in order to produce robust and agile actions. See my research section
+  for my specific applications.</p>
+
+<p>I believe strongly in a work life balance and a revolving selection of personal projects. In my free time I 
+  enjoy reading (or listening to audiobooks) and playing the piano. I have two wonderfull dogs that I love 
+  to spend time with while hiking, camping, and hunting, or even just letting them laze around while I work on 
+  my house. The last of my hobbies which I will mention here is film photography, I have a 35mm Olympus film 
+  camera which I dutifully take on all my adventures with my wife and son.</p>
+
+<p>If you like my research or have any questions, feel free to reach out over email or linkedin.</p>
+
+<!-- puppies -->
+<!-- photography -->
+<!-- table -->
+
+<!-- My research focuses primarily on adding **Bayesian filtering** and **optimal control** concepts to 
+**probabilistic machine learning** paradigms. In short, classical filtering and optimal control methods are 
+typically slow and difficult to tune for systems which are both high-dimensional and nonlinear (such as 
+human-robot interaction) while machine learning methods do not provide guarantees for stability and robustness 
+in learned controllers. By merging ideas from both I am working to create intelligent robot control methods 
+which are an order of magnitude faster than conventional optimal controllers.  -->
+
+<!-- One excellent application of my research is in the control of powered prosthetics. For example I enabled fast 
+and accurate prostheses control by training a model to predict high-fidelity control signals from low-fidelity 
+sensors such as IMUs (ICRA 2020). Going a step further I incorporated model predictive control to ensure stability 
+and robustness while continuously looking ahead to possible future states and modifying the robots interaction to 
+insure the amputee walks in ways which take less energy, increase stability, or limit the risk of osteoarthritis 
+(CoRL2020). I am now working towards a unified motor primitive approach that tackles both optimal perception and 
+optimal action. -->
+
+<!-- Autonimous robotics is another interisting aplication focus for my work on pairing optimal perceptions with optimal 
+actions. Without humans in the loop a robot -- whether to play chess or an autonimous legged system -- must still 
+evaluate the environment and formulate a model of how to interact with it. This interaction, environment to robot 
+and robot to envronment forms a loop that allows for optimization of both sides by the robot. -->
+
+</article>
+
+
+
+
+
+
+
+
+<!-- {% for post in paginator.posts %}
   {% include featured-post.html %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- Pagination links -->
 <!-- <div class="pagination">
